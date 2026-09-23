@@ -1,0 +1,62 @@
+.component-a-container {
+  display: flex;
+  justify-content: center;
+  padding: 32px 16px 12px;
+}
+
+.component-a-form {
+  width: min(100%, 480px);
+  padding: 28px;
+  background: #fffaf4;
+  border: 1px solid #d8c2ad;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(74, 44, 32, 0.18);
+}
+
+.component-a-form h2 {
+  margin: 0 0 20px;
+  color: #4a2c20;
+  text-align: center;
+}
+
+.component-a {
+  display: block;
+  margin-bottom: 14px;
+  color: #4a2c20;
+  font-weight: 600;
+}
+
+.component-a input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 6px;
+  padding: 11px 12px;
+  border: 1px solid #c9ad96;
+  border-radius: 7px;
+  background: #ffffff;
+  color: #2f211b;
+  font-size: 15px;
+}
+
+.component-a input:focus {
+  outline: 2px solid #c27b48;
+  border-color: #8f512d;
+}
+
+.component-a-submit {
+  width: 100%;
+  margin-top: 8px;
+  padding: 11px 18px;
+  border: 0;
+  border-radius: 7px;
+  background: #6f4e37;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.component-a-submit:hover {
+  background: #4a2c20;
+}

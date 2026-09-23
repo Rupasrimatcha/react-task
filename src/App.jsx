@@ -20,6 +20,7 @@ import Profile from './Router/Profile'
 import Settings from './Router/Settings'
 import UseParamsHook from './Components/UseParamsHook'
 
+
 const ternary=false;
 export const themecontext = createContext()
 export default function App() {
@@ -32,6 +33,7 @@ export default function App() {
   }
   return (
     <div className='app'>
+      
       {ternary && <div>
         
         <UseReducerHook/>
